@@ -1,0 +1,35 @@
+.menu-barra {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .menu-barra ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-barra li {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .menu-barra a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .menu-barra .submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+  }
+  
+  .menu-barra li:hover .submenu {
+    display: block;
+  }
+  
+  .menu-barra .submenu li {
+    display: block;
+  }
+  
