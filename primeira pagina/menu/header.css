@@ -47,9 +47,8 @@ a:hover {
     body {
         overflow-x: hidden;
     }
-    #btn-mobile {
-        display: block;
-    }
+    
+    
     #menu {
         display: block;
         position: absolute;
@@ -73,17 +72,40 @@ a:hover {
     }
     #menu li {
         margin-left: 0;
-        opacity: 0;
+        opacity: 1;
     }
+     #btn-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+    }   
+    #hamburguer {
+        border-top: 2px solid;  
+        width: 20px;
+    }
+    #hamburguer::after, #hamburguer::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+    #nav.active #hamburguer {
+        border-top-color: transparent;
 
-    @keyframes navLinkFade {
-        from {
-            opacity: 0;
-            transform: translateX(50px);
-        }
-        to {
-            opacity: 1;
-            transform: translateX(0);
-        }
+    }
+    #nav.active #hamburguer::before {
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
     }
 }
