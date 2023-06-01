@@ -1,0 +1,36 @@
+.container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .imagem-hover {
+    width: 1000px; /* Largura desejada */
+    height: auto; /* Altura automática para manter a proporção original */
+    transition: transform 0.3s;
+  }
+
+  .imagem-normal {
+    width: 1000px; /* Largura desejada */
+    height: auto; /* Altura automática para manter a proporção original */
+    transition: transform 0.3s;
+  }
+  
+  .imagem:hover {
+    transform: scale(1.2);
+  }
+  
+  .imagem:hover {
+    transform: scale(1.2);
+  }
+  
+  .imagem-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  
+  .container:hover .imagem-hover {
+    opacity: 1;
+  }
+  
