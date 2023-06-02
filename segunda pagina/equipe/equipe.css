@@ -4,13 +4,13 @@
   }
   
   .imagem-hover {
-    width: 1000px; /* Largura desejada */
+    width: 400px; /* Largura desejada */
     height: auto; /* Altura automática para manter a proporção original */
     transition: transform 0.3s;
   }
 
   .imagem-normal {
-    width: 1000px; /* Largura desejada */
+    width: 399px; /* Largura desejada */
     height: auto; /* Altura automática para manter a proporção original */
     transition: transform 0.3s;
   }
