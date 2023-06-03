@@ -25,8 +25,7 @@
 
 .imagem-gerente,
 .imagem-gerente2,
-.imagem-normal,
-.imagem-hover {
+.imagem-normal {
     width: 200px; /* Largura desejada */
     height: auto; /* Altura automática para manter a proporção original */
     transition: transform 0.3s;
