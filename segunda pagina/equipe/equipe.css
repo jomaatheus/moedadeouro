@@ -1,36 +1,39 @@
-.container {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .imagem-hover {
-    width: 400px; /* Largura desejada */
-    height: auto; /* Altura automática para manter a proporção original */
-    transition: transform 0.3s;
-  }
+.diretor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Ajuste a altura conforme necessário */
+}
 
-  .imagem-normal {
-    width: 399px; /* Largura desejada */
+.diretor img {
+  transition: 0.3s; /* Adiciona uma transição suave */
+}
+
+.imagem-gerente:hover,
+.imagem-gerente2:hover,
+.imagem-normal:hover {
+  transform: scale(1.2); /* Aumenta a escala da imagem quando o mouse passa por cima */
+}
+
+
+.gerentes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Ajuste a altura de acordo com a necessidade */
+}
+
+.imagem-gerente,
+.imagem-gerente2,
+.imagem-normal,
+.imagem-hover {
+    width: 200px; /* Largura desejada */
     height: auto; /* Altura automática para manter a proporção original */
     transition: transform 0.3s;
-  }
-  
-  .imagem:hover {
-    transform: scale(1.2);
-  }
-  
-  .imagem:hover {
-    transform: scale(1.2);
-  }
-  
-  .imagem-hover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-  }
-  
-  .container:hover .imagem-hover {
-    opacity: 1;
-  }
-  
+}
+
+.imagem-gerente {
+    margin-right: 100px; /* Adiciona uma margem à direita para separar as imagens */
+    
+}
+
