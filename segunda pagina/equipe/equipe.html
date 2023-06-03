@@ -8,12 +8,18 @@
 </head>
             <link rel="stylesheet" type="text/css" href="equipe.css">
 <body>
-    <div class="container">
+
+    <div class="diretor">
         
-        <img class="imagem-normal" src="../../imagens/imagem-equipe/alanTerno.jpg" alt="Imagem">
-        <img class="imagem-hover" src="../../imagens/imagem-equipe/alanSocial.jpg" alt="Imagem ao Passar o Mouse">
-        <p><a>diretor geral:</a></p>
-      </div>
+        <img class="imagem-normal" src="../../imagens/imagem-equipe/alanTerno.jpg" alt="Imagem" onmouseover="trocarImagem(this)" onmouseout="restaurarImagem(this)">
+        
+    </div>
+
+    <div class="gerentes">
+        <img class="imagem-gerente" src="../../imagens/imagem-equipe/wellingtom.jpg" alt="Imagem">
+        <img class="imagem-gerente2" src="../../imagens/imagem-equipe/rose.jpg" alt="Imagem">
+    </div>
+    <script src="equipe.js"></script>
 </body>
 </html>
 
