@@ -1,0 +1,11 @@
+.moedaGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Ajuste a altura de acordo com a necessidade */
+}
+
+.moedaGroupImg{
+    width: 400px; /* Largura desejada */
+    height: auto; /* Altura automática para manter a proporção original */
+}
