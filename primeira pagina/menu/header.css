@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
+body {
+    background-color: rgba(58, 58, 56, 0.274);
+}
 
 body, ul {
     margin: 0px;
@@ -13,9 +16,10 @@ a {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+
 a:hover {
     background: rgba(0, 0, 0, .05);
-    
 }
 
 #logo {
@@ -51,7 +55,7 @@ a:hover {
     display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     body {
         overflow-x: hidden;
     }
@@ -126,7 +130,10 @@ gap: .5rem;
     top: -7px;
 }
 
-#menu ul:hover {
-    color: orange;
+
+
+.moedaGroupImg {
+    display: block;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.138);
 }
 }
